@@ -1,0 +1,371 @@
+.head{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: end;
+    background-color:rgba(3, 34, 59, 0.715);
+    word-spacing: 1cm;
+}
+.head a{
+    color: rgb(205, 199, 199);
+    font-size: large;
+}
+.head a:hover{
+    color: black;
+}
+.heading1{
+    position: absolute;
+    margin-left: 1155px;
+    font-size: large;
+    justify-content: space-around;
+    padding-top: 12px;
+    line-height:6px;
+}
+.heading3{
+    position: absolute;
+    margin-left: 1350px;
+    font-size: large;
+    justify-content: space-around;
+    padding-top: 12px;
+    line-height:6px;
+}
+#mynav{
+    text-align:end;
+    word-spacing:2cm;
+    font-size:x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+#mynav{
+    text-decoration: none;
+    color:rgb(249, 244, 244);
+    font-size: large;
+    font-family:  sans-serif;
+    font-size: 17px;
+}
+#mynav a:hover{
+    color: rgb(18, 9, 7);
+}
+.welcome{
+    background-image: url('https://content.studentbridge.com/prod/9/d2712ffa-d1fe-4cae-96e9-de0015eb8f91.jpg');
+    width: 100%;
+    height: 700px;
+}
+.welcome h3 {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.welcome h1 {
+    color:white;
+    font-size: 220%;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.searchbox {
+    color:rgb(24, 9, 9);
+    font-size: 150%;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.searchbox input{
+    border: 4px solid rgb(234, 216, 10);
+    height: 40px;
+    width: 370px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    font-size: large;
+}
+.loginbackgroundimage{
+    background-image: url('https://th.bing.com/th/id/R.19a0408bfbca521bc13f1ee699d1abb9?rik=JncipbLBV%2b9Q5A&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1377824%2fimages%2fo-COLLEGE-STUDENTS-facebook.jpg&ehk=5ROHFKnZt2hdWj1WuXao83D7OCXe8ckqonkDaGdatio%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    height: 700px;
+}
+#loginback{
+    position: absolute;
+    top: 50%;
+    margin-left: 400px;
+    margin-right: 100px;
+    background-color: skyblue;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.loginback h2{
+    background-color: black;
+}
+
+#login1{
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: rgb(57, 70, 169);
+    color: white;
+    font-weight: bold;
+    font-size:medium;
+}
+#login1:hover{
+    color:rgb(246, 12, 12);
+}
+#Reset{
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: rgb(57, 70, 169);
+    color: white;
+    font-weight: bold;
+    font-size:medium;
+}
+#Reset:hover{
+    color:rgb(252, 10, 10);
+}
+.course{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 60px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:rgb(105, 110, 156);
+    font-size: 14px;
+    font-weight: 300;
+    line-height:22px;
+    padding: 45px;
+}
+.row{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #ebd3d3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+}
+.button{
+    border:none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px;
+    background-color: #2957d5;
+    border-radius: 6px;
+    margin: 14px;
+}
+.about-img{
+    margin-top: 89px;
+}
+.about-text{
+    position: absolute;
+    margin-left: 550px;
+    font-size: large;
+    justify-content: space-around;
+    padding-top: 110px;
+    line-height:6px;
+    color: rgb(164, 64, 64);
+}
+.about-text p{
+    margin-left: 20px;
+    font-size: large;
+    padding-top: 11px;
+    color: rgb(17, 100, 233);
+    font-weight: 550;
+}
+.about-text.fe-text h5{
+    color: rgb(255, 6, 6);
+    font-size:medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about-text.about-img{
+    width: 50px;
+    background-size: cover;
+    background-position: center;  
+}
+.footer .box-container{
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:1.5rem;
+    color: rebeccapurple;
+    font-size: large;
+}
+.footer .box-container.box .h3{
+    text-decoration: none;
+    padding:.5rem.0;
+    font-size:larger;
+    color:rgb(254, 171, 18);
+}
+.footer .box-container .box a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;;
+    font-size: large;
+    color:rgb(39, 62, 161);
+    text-align: center;
+}
+.credit span{
+    color :rgb(15, 159, 15);
+}
+.footer2 .box-container2{
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:1.5rem;
+    color: rgb(3, 0, 5);
+    font-size: large;
+}
+.footer2 .box-container2.box2 .h3{
+    text-decoration: none;
+    padding:.5rem.0;
+    font-size:larger;
+    color:rgb(254, 171, 18);
+}
+.footer2 .box-container2 .box2 a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;;
+    font-size: large;
+    color:rgb(6, 51, 254);
+    text-align: center;
+}
+.footer2 .box-container2 .box2 a:hover{
+    color:rgb(255, 6, 6);
+    text-decoration:underline;
+}
+.contact-form h2{
+    color: rgb(248, 249, 251);
+}
+#contactback{
+    padding-top: 20px;
+    background-color: rgb(30, 19, 229);
+    padding-left: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 27%;
+}
+#contactform{
+    position: absolute;
+    top: 30%;
+    margin-left: 400px;
+    margin-right: 200px;
+    background-color: skyblue;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.contact-form{
+    color: rgb(9, 49, 227);
+}
+.contact4{
+    position: absolute;
+    margin-left: 800px;
+    top: 910px;
+}
+.contact5{
+    position: absolute;
+    margin-left: 800px;
+    top: 1150px;
+}
+.contact6{
+    position: absolute;
+    margin-left: 800px;
+    top: 1380px;
+}
+#send{
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: rgb(57, 70, 169);
+    color: white;
+    font-weight: bold;
+    font-size:medium;
+}
+#send:hover{
+    color:rgba(248, 252, 4, 0.912);
+}
+.button1{
+    border:none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px;
+    background-color: #2957d5;
+    border-radius: 6px;
+    margin: 14px;
+}
+.branch1 h3{
+    font-size: large;
+    text-align: left;
+    padding-right: 700px;
+}
+.icon1{
+    position: absolute;
+    text-align: left;
+}
+.core h1{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.core h5{
+    position: absolute;
+    margin-left: 100px;
+    top: 247px;
+}
+.java h3{
+   top: 200px;
+   padding-top: 30px;
+   text-align: left;
+}
+.b{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+#btn1{
+    font-size: large;
+    text-transform: uppercase;
+}
+.practise1{
+    color:red;
+    font-weight: bold;
+    font-size:medium;
+    position: absolute;
+    top: 50%;
+    margin-left: 00px;
+    margin-right: 200px;
+    background-color: skyblue;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
